@@ -1,1 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #f3f2f9;
+}
+
+
+.main-container{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    background: #f3f2f9;
+    overflow: hidden;
+}
+
+
+h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 208px;
+    left: 89px;
+    color: #1a1a1f;
+    text-align: left;
+    color: #1A1A1F;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px; 
+    }
+
+.blog-img{
+        position: absolute;
+        width: 624px;
+        height: 200px;
+        top: 144px;
+        left: 740px;
+        background-size: cover;
+    }
 
