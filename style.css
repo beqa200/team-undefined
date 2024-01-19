@@ -13,8 +13,10 @@ body{
 }
 
 
+
+
+/* .main-container */
 .main-container{
-    /* position: relative; */
     width: 1440px;
     margin: 0 auto;
     background: #f3f2f9;
@@ -47,6 +49,10 @@ h1{
     }
 
 
+
+
+
+/* buttons*/
     .buttons{
         display: flex;
         align-items: center;
@@ -133,3 +139,35 @@ h1{
         color: #1AC7A8;
         border: none;
     } 
+
+/* sections */
+
+    .section{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin: 14px 0 0 76px;
+    }
+    
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 24px;
+        width: 408px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    
+    .img{
+        flex-shrink: 0;
+        width: 408px;
+        height: 328px;
+        background-size: cover;
+        border-radius: 12px;
+    }
