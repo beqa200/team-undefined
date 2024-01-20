@@ -177,3 +177,184 @@ body main {
     line-height: 2.8rem;
     margin-top: 4rem;
 }
+
+/* Set some styles for main and its child elements */
+body footer {
+    padding-left: 7.6rem;
+    padding-right: 7.6rem;
+    margin-top: 9.7rem;
+}
+
+.control-footer h3 {
+    width: 72rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--author-and-title);
+    line-height: 4rem;
+}
+
+.control-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45.6rem;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+} 
+
+.same-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 3.9rem;
+}
+
+.same-article-author {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--autor-and-title);
+    line-height: 2rem;
+    margin-top: 2.4rem;
+}
+
+.same-article-date {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--date-and-emal);
+    line-height: 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.first-same-article-title {
+    width: 40.8rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--author-and-title);
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+
+.second-same-article-title {
+    width: 40.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--author-and-title);
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+
+.third-same-article-title {
+    width: 40.8rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--author-and-title);
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+
+.same-article-topics {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.same-article-text {
+    width: 40.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--article);
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+
+.same-article-application {
+    display: flex;
+    padding: 0.6rem 1rem;
+    background-color: rgba(28, 214, 125, 0.08);   
+    align-items: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.same-article-application p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #15C972;
+    line-height: 1.6rem;
+}
+
+.same-article-artificial-intelligence {
+    display: flex;
+    padding: 0.6rem 1rem;
+    background-color: rgba(177, 28, 214, 0.08);  
+    align-items: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.same-article-artificial-intelligence p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #B71FDD;
+    line-height: 1.6rem;
+}
+
+.same-article-ui-ux {
+    display: flex;
+    padding: 6px 10px;
+    background: rgba(250, 87, 87, 0.08);
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.same-article-ui-ux p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #DC2828;
+    line-height: 1.6rem;
+}
+
+.same-article-research {
+    display: flex;
+    padding: 6px 10px;
+    background: rgba(112, 207, 37, 0.08);
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 30px; 
+}
+
+.same-article-application p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #60BE16;
+    line-height: 16px;
+}
+
+.second-same-article-topics {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    margin-top: 4.5rem;
+}
+
+.continue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+}
+
+.full-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #5D37F3;
+    line-height: 2rem;
+}
