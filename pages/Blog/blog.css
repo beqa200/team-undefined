@@ -4,8 +4,8 @@
 /* Make root for colors */
 :root {
     --author-and-title: #1A1A1F;
-    --date-and-emal: 85858D;
-    --article: 404049;
+    --date-and-emal: #85858D;
+    --article: #404049;
     --market: #D6961C;
     --application: #15C972;
     --artificial-intelligence: #B71FDD;
@@ -65,4 +65,115 @@ body header {
     font-weight: 500;
     line-height: 2rem;
     color: #fff;
+}
+
+/* Set some styles for main and its child elements */
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-image {
+    width: 72rem;
+    height: 32.8rem;
+    margin-top: 6.5rem;
+}
+
+.author-and-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.author {
+    width: 72rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--autor-and-title);
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+
+.date-and-email {
+    width: 72rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--date-and-emal);
+    line-height: 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.title {
+    width: 72rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--author-and-title);
+    line-height: 4rem;
+    margin-top: 2.4rem;
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    width: 72rem;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+.market {
+    display: flex;
+    padding: 0.6rem 1rem;
+    background-color: rgba(255, 184, 47, 0.08);   
+    align-items: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.market p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #D6961C;
+    line-height: 1.6rem;
+}
+
+.application p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #15C972;
+    line-height: 1.6rem;
+}
+
+.artificial-intelligence p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #B71FDD;
+    line-height: 1.6rem;
+}
+
+.application {
+    display: flex;
+    padding: 0.6rem 1rem;
+    background-color: rgba(28, 214, 125, 0.08);   
+    align-items: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.artificial-intelligence {
+    display: flex;
+    padding: 0.6rem 1rem;
+    background-color: rgba(177, 28, 214, 0.08);  
+    align-items: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.article-up,
+.article-down {
+    width: 72rem;
+    font-size: 1.6rem;
+    color: var(--article);
+    line-height: 2.8rem;
+    margin-top: 4rem;
 }
