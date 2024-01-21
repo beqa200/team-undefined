@@ -4,6 +4,8 @@
 /* Make root for colors */
 :root {
     --main-color: #1A1A1F;
+    --input-area: #FCFCFD;
+    --guidance: #85858D;
 }
 
 /* Reset some properties */
@@ -77,7 +79,74 @@ body main {
 .instruction {
     font-size: 14px;
     font-weight: 400;
-    color: #1A1A1F;
+    color:var(--main-color);
     line-height: 20px;
     margin-top: 2.4rem;
+}
+
+.author-and-title-container {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.to-do {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    line-height: 20px;
+}
+
+.input-area {
+    width: 28.8rem;
+    height: 4.4rem;
+    background-color: var(--input-area);
+    border: 1px solid #E4E3EB;
+    border-radius: 12px;
+    margin-top: 0.8rem;
+}
+
+.requirements {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--guidance);
+    line-height: 20px; 
+    margin-top: 0.8rem;
+}
+
+.describe{
+    width: 60rem;
+    margin-top: 2.4rem;
+}
+
+.describe-input {
+    width: 60rem;
+    height: 12.4rem;
+    background-color: var(--input-area);
+    border: 1px solid #E4E3EB;
+    border-radius: 12px;
+    margin-top: 0.8rem;
+}
+
+.describe-two {
+    width: 60rem;
+}
+
+.date-and-category-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.email {
+    width: 60rem;
+    margin-top: 2.4rem;
+}
+
+.email-two {
+    width: 60rem;
+    margin-top: 0.8rem;
 }
