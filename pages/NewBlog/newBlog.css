@@ -77,6 +77,18 @@ body main {
     margin-top: 4.8rem;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.underline:hover {
+    cursor: pointer;
+}
+
+.placeholder {
+    margin-left: 1.6rem;
+}
+
 .instruction {
     font-size: 14px;
     font-weight: 400;
@@ -107,6 +119,10 @@ body main {
     border: 1px solid #E4E3EB;
     border-radius: 12px;
     margin-top: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
 }
 
 .requirements {
@@ -172,9 +188,37 @@ body main {
     border: none;
 }
 
+.post:hover {
+    cursor: pointer;
+}
+
 .post p {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     color: #FFF;
+}
+
+/* Display placeholder texts on the correct place */
+.input-area::placeholder {
+    padding-left: 1.6rem;
+}
+
+.describe-input::placeholder {
+    padding-left: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+/* Add missed parts */
+.calendar {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.6rem;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A1A1F;
+    line-height: 20px;
 }
