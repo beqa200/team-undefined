@@ -5,9 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../common.css" />
     <link rel="stylesheet" href="newBlog.css" />
-    <title>Document</title>
+    <title>New Blog</title>
   </head>
   <body>
-    <script src="./newBlog.js"></script>
+    <header>
+      <img class="logo" src="./images/newblog-logo.png" src="logo">
+    </header>
+    <main>
+      <h1 class="add-blog">ბლოგის დამატება</h1>
+      <h4 class="add-photo">ატვირთეთ ფოტო</h4>
+      <div class="image-area">
+        <img class="image-placeholder" src="./images/image-placeholder.png" alt="image placeholder">
+        <h5 class="instruction">ჩააგდეთ ფაილი აქ ან <span class="underline">აირჩიეთ ფაილი </span></h5>
+      </div>
+      <div class="author-and-title-container">
+        <div class="author-container">
+          <h4 class="to-do">ავტორი *</h4>
+          <input class="input-area" placeholder="შეიყვანეთ ავტორი" required/>
+          <p class="requirements">&middot მინიმუმ 4 სიმბოლო <br> &middot მინიმუმ ორი სიტყვა <br> &middot მხოლოდ ქართული სიმბოლოები</p>
+        </div>
+        <div class="title-container">
+          <h4 class="to-do">სათური *</h4>
+          <input class="input-area" placeholder="შეიყვნეთ სათაური" required/>
+          <p class="requirements">მინიმუმ 2 სიმბოლო</p>
+        </div>
+      </div>
+      <h4 class="to-do describe">აღწერა *</h4>
+      <input class="describe-input" placeholder="შეიყვანეთ აღწერა" required/>
+      <p class="requirements describe-two">მინიმუმ 2 სიმბოლო</p>
+      <div class="date-and-category-container">
+        <div class="date-container">
+          <div class="to-do date">გამოქვეყნების თარიღი *</div>
+          <div class="input-area">
+            <img class="calendar" src="./images/caldendar.png" alt="calendar">
+            <p class="date">12/12/2023</p>
+          </div>
+        </div>
+        <div class="category-container">
+          <div class="to-do category">კატეგორია *</div>
+          <input class="input-area" placeholder="აირჩიეთ კატეგორია" required/>
+        </div>
+      </div>
+      <div class="to-do email">ელ-ფოსტა</div>
+      <input class="input-area email-two" placeholder="Example@redberry.ge" required/>
+      <div class="for-button">
+        <button class="post">
+          <p>გამოქვეყნება</p>
+        </button>
+      </div>
+    </main>
   </body>
 </html>
