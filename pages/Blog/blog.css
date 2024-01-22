@@ -182,6 +182,7 @@ body main {
 body footer {
     padding-left: 7.6rem;
     padding-right: 7.6rem;
+    padding-bottom: 47.5rem;
     margin-top: 9.7rem;
 }
 
@@ -357,4 +358,9 @@ body footer {
     font-weight: 500;
     color: #5D37F3;
     line-height: 2rem;
+}
+
+.full-text:hover,
+.arrow {
+    cursor: pointer;
 }
