@@ -1,0 +1,224 @@
+/* Import font type */
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+
+/* Make root for colors */
+:root {
+    --main-color: #1A1A1F;
+    --input-area: #FCFCFD;
+    --guidance: #85858D;
+}
+
+/* Reset some properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5% !important;  /* Set default font size */
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'firaGo', sans-serif !important;
+}
+
+/* Set some styles for header */
+body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2.8rem;
+}
+
+/* Set some styles for main and its child elements */
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 11rem;
+}
+
+.add-blog {
+    width: 60rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--main);
+    line-height: 4rem;
+    margin-top: 6rem;
+}
+
+.add-photo {
+    width: 60rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--main);
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+
+.image-area {
+    width: 60rem;
+    height: 18rem;
+    background-color: #F4F3FF;
+    border-radius: 12px;
+    border: 1px dashed #85858D;
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 4.8rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.underline:hover {
+    cursor: pointer;
+}
+
+.placeholder {
+    margin-left: 1.6rem;
+}
+
+.instruction {
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--main-color);
+    line-height: 20px;
+    margin-top: 2.4rem;
+}
+
+.author-and-title-container {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.to-do {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    line-height: 20px;
+}
+
+.input-area {
+    width: 28.8rem;
+    height: 4.4rem;
+    background-color: var(--input-area);
+    border: 1px solid #E4E3EB;
+    border-radius: 12px;
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.requirements {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--guidance);
+    line-height: 20px; 
+    margin-top: 0.8rem;
+}
+
+.describe{
+    width: 60rem;
+    margin-top: 2.4rem;
+}
+
+.describe-input {
+    width: 60rem;
+    height: 12.4rem;
+    background-color: var(--input-area);
+    border: 1px solid #E4E3EB;
+    border-radius: 12px;
+    margin-top: 0.8rem;
+}
+
+.describe-two {
+    width: 60rem;
+}
+
+.date-and-category-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.email {
+    width: 60rem;
+    margin-top: 2.4rem;
+}
+
+.email-two {
+    width: 60rem;
+    margin-top: 0.8rem;
+}
+
+.for-button {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 4rem;
+}
+
+.post {
+    display: flex;
+    width: 28.8rem;
+    padding: 1rem 2rem;
+    background-color: #E4E3EB;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+.post p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFF;
+}
+
+/* Display placeholder texts on the correct place */
+.input-area::placeholder {
+    padding-left: 1.6rem;
+}
+
+.describe-input::placeholder {
+    padding-left: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+/* Add missed parts */
+.calendar {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.6rem;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A1A1F;
+    line-height: 20px;
+}
